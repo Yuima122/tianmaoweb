@@ -1,0 +1,34 @@
+#demo{
+    position: absolute;
+    z-index: -1;
+    width: 1260px;
+    height: 500px;
+
+}
+#navLast{
+    position: absolute;
+    z-index: 10;
+    left: 10px;
+}
+#navLast>ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    height: 500px;
+    background-color: rgba(0,0,0,.55);
+}
+#navLast>ul>li{
+    text-align: left;
+    width: 200px;
+    height: 31.2px;
+    line-height: 31.2px;
+    color: white;
+    font-size: 14px;
+}
+#navLast>ul>li>a{
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
